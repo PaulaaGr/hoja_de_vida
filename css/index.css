@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.paginaPrincipal{
+
+.paginaPrincipal {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -12,10 +13,10 @@
 }
 
 .paginaPrincipal header,
-.paginaPrincipal footer{
+.paginaPrincipal footer {
     width: 100%;
-    background-color: #8a8499;
-    height: 120px;
+    background-color: #3583e9bd;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +25,10 @@
 
 .colorWhite {
     color: #ffffff;
+    font-size: 30px;
 }
 
-.paginaPrincipal .contenido{
+.paginaPrincipal .contenido {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -35,14 +37,22 @@
     height: calc(100vh - 300px);
 }
 
-.contenido nav{
+.contenido nav {
     width: 200px;
-    background-color: #9a9a9a;
+    background-color: #ff0505;
     height: calc(100vh - 300px);
 }
 
-.contenido article{
+.contenido article {
     width: calc(100% - 200px);
     height: calc(100vh - 300px);
 }
 
+.letra {
+    color: rgba(108, 88, 221, 0.664);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 2px solid rgb(55, 0, 255);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-color: rgb(238, 222, 222);
+}
